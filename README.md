@@ -68,13 +68,13 @@ Temperature: 25 Celsius / 13 Celsius
 
 You can run the program using the `go run` command or compile and run the resulting executable:
 
-- With `go run` for city named Rongai:
+- With `go run` for town named Rongai:
 ```
-go run main.go -city Rongai
+go run main.go -town Rongai
 ```
 
-- Compile exectuable name weather, and run it for city name Rongai:
+- Compile exectuable name weather, and run it for town name Rongai:
 
 ```
-go compile -o weather && weather -city Rongai
+go build -o weather && ./weather -town Rongai
 ```
